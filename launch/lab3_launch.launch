@@ -1,0 +1,5 @@
+<launch>
+    
+    <rosparam file="$(find lab3)/config/poppy_dh.yaml" />
+    <rosparam file="$(find lab3)/config/poppy_ik.yaml" />
+</launch>
